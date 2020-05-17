@@ -1,17 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('work1_css/stylesheet.css') }}">
     <title>Laravel work1</title>
-
-    <style>
-    * {margin: 0; padding: 0;}
-    h1 {font-size: 12pt; color: #000; font-weight: normal;}
-    header {display: flex; justify-content: space-between; padding: 20px; border-bottom: 1px solid #000;}
-    .container {height: 400px; width: 600px; margin: 100px auto; border: 1px solid #000;}
-    .container_title {display: block; padding: 20px; background-color: #ccc; border-bottom: 1px solid #000;}
-    .container_content {display: block; padding: 20px;}
-    #submit {background-color: royalblue; color: #fff; padding: 5px; border-radius: 4px;}
-    </style>
-
 </head>
 
 <body>
@@ -20,7 +13,7 @@
             <h1>Laravel</h1>
         </div>
         <div>
-            <a href="/work1">Login</a>
+            <a href="{{ route('work1.index')}}">Login</a>
             <a href="">Register</a>
         </div>
     </header>
