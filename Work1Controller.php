@@ -11,8 +11,8 @@ class Work1Controller extends Controller
         return view('work1.index');
     }
 
-    public function register () {
-        return view('work1.register');
+    public function create () {
+        return view('work1.create');
     }
 
 }
