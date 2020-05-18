@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('work1', 'Work1Controller@index')
+      ->name('work1.index');
+
+Route::get('work1/create', 'Work1Controller@create')
+      ->name('work1.create');
+

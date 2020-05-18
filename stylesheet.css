@@ -1,1 +1,28 @@
+* {margin: 0; padding: 0;}
 
+h1 {font-size: 12pt;
+    color: #000;
+    font-weight: normal;}
+
+header {display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        border-bottom: 1px solid #000;}
+
+.container {
+            width: 600px;
+            margin: 100px auto;
+            border: 1px solid #000;}
+
+.container_title {display: block;
+                  padding: 20px;
+                  background-color: #ccc;
+                  border-bottom: 1px solid #000;}
+
+.container_content {display: block;
+                    padding: 20px;}
+
+#submit {background-color: royalblue;
+         color: #fff;
+         padding: 5px;
+         border-radius: 4px;}
